@@ -1,0 +1,15 @@
+{
+  "name": "ledgerjs",
+  "version": "1.0.0",
+  "description": "Provide a browserifyed Ledger wallet access for Stellar",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "browserify index.js -o wallet-ledger.js"
+  },
+  "author": "LedgerHQ",
+  "license": "Apache version 2.0",
+  "dependencies": {
+    "@ledgerhq/hw-app-str": "^6.24.1",
+    "@ledgerhq/hw-transport-webusb": "^6.24.1"
+  }
+}
