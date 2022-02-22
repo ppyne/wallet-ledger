@@ -29,7 +29,7 @@ npm install
         integrity="sha512-pDFM6HQlPpmbVLOENLgRZsl9V4HL5Lu6FOqiZbPWmLC/698C5gXG7+OZCOEQJhfggwE/cEGy3FwPmKPRBXQFWg=="
         crossorigin="anonymous"
         referrerpolicy="no-referrer"></script>
-    <script src="walletledger.js"></script>
+    <script src="wallet-ledger.js"></script>
 ```
 
 ```javascript
